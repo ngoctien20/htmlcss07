@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #fff;
+}
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+:root {
+    --violet: #936cdd;
+    --black: #201830;
+    --gray: #665f73;
+    --prime-color: #ff9051;
+}
+a {
+    text-decoration: none;
+}
+.section_desc {
+    color: var(--gray);
+    font-weight: 400;
+    line-height: 28px;
+}
+.section_heading {
+    color: var(--black);
+    font-weight: 700;
+}
+.hed_pc {
+    display: none;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--violet);
+    color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px -6px rgba(13, 0, 255, 0.8);
+    padding: 1px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    width: 170px;
+    height: 62px;
+}
+.section_link {
+    color: var(--black);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+.section_link:hover {
+    text-decoration-line: underline;
+}
+/* hero */
+.hero {
+    background: #FFF8F3;  
+    padding: 110px 0 140px;
+}
+.hero_row {
+    display: flex;
+}
+/* hero left */
+.hero_left {
+    margin-right: 130px;
+    display: flex;
+}
+.hero_inner {
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+}
+.img_main {
+    border-radius: 8px;
+    width: 270px;
+    height: 302px;
+    object-fit: cover;
+}
+.main_left{
+    position: relative;
+}
+.hero_wave{
+    background:#FFFFFF;
+    position: absolute;
+    bottom: 130px;
+    left: 38px;
+    width: 194px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 12px 44px 0px #20183012;
+border-radius: 5px;
+column-gap: 8px;
+}
+.hero_podcast{
+    margin-top: 53px
+}
+.hero_podcast_heading{
+    color: var(--black);
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+}
+.hero_podcast_list{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 18px;
+}
+.hero_podcast_avatar{
+    margin-left: -18px;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+border: 2px solid #FFF;
+}
+.avt_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px; /* 183.333% */
+    width: 48px;
+    height: 48px;
+    border: 2px solid #FFF;
+    background: #201830;
+}
+.img_top{
+    position: relative;
+}
+.img_top_podcarts{
+    margin: 8px 0 0 118px;
+}
+.img_top_decor_left{
+    top: 44.5px;
+    left: 54px;
+    position: absolute;
+}
+.img_top_decor_right{
+    position: absolute;
+    top: 102px;
+    left: 157px;
+}
+.img_top_media{
+    margin-top: 12px;
+    display: flex;
+    column-gap: 18px;
+}
+.main_right {
+    display: inline-block;
+    position: relative;
+    margin-top: 28px;
+}
+.main_right_block{
+    position: absolute;
+    bottom: 16px;
+    right: 38px;
+    width: 194px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 9px;
+background: rgba(255, 255, 255, 0.40);
+box-shadow: 0px 12px 44px 0px rgba(0, 0, 0, 0.07);
+backdrop-filter: blur(5px);
+}
+.main_right_heading{
+    margin-top: 14px;
+    color: var(--black);
+text-align: center;
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 14px; /* 100% */
+}
+.main_right_desc{
+    margin-top: 6px;
+    color: var(--gray);
+text-align: center;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 12px; /* 100% */
+}
+/* hero right */
+
+.hero_heading {
+    position: relative;
+    width: 470px;
+    font-size: 7rem;
+    line-height: 80px;
+    z-index: 2;
+}
+.hero_heading_decor{
+    position: absolute;
+    left: 31px;
+    bottom: 72px;
+    z-index:-1;
+}
+.hero_desc {
+    margin-top: 20px;
+    width: 470px;
+    font-size: 1.8rem;
+}
+.hero_actions {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.hero_btn {
+    width: 157px;
+    height: 64px;
+}
+.hero_play{
+    padding-top: 2px;
+    margin-left: -20px;
+
+}
+
