@@ -431,13 +431,14 @@ line-height: 28px; /* 175% */
     width: 390px;
     font-size: 4.2rem;
     line-height: 52px;
+    z-index: 1;
 }
 .popular_heading::after{
     content:url(/assets/img/popular_heading.svg);
     position: absolute;
     top: 14px;
     right: 43px;
-
+    z-index: -1;
 }
 .popular_list{
     margin-top: 84px;
@@ -468,6 +469,7 @@ line-height: 28px; /* 175% */
     line-height: 30px;
 }
 .popular_item_episode{
+    display: block;
     margin-top: 29px;
     color: #FD6F1F;
 font-size: 1.4rem;
