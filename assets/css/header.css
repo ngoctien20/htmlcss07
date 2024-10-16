@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     margin: 0 auto;
-    padding: 24px 0 0;
+    padding: 15px 0 15px;
     position: sticky;
     top: -24px;
     overflow: hidden;
@@ -27,7 +27,13 @@
 .navbar_center_list {
     display: flex;
     justify-content: center;
+   align-items: center;
     column-gap: 48px;
+}
+.navbar_center_item:nth-of-type(3) .navbar_link{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
 }
 .navbar_actions {
     justify-content: center;
