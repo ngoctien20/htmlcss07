@@ -552,7 +552,7 @@ border-radius: 8px;
     line-height: 52px;
 }
 .listeners_heading::after{
-    content:url(/assets/img/listeners_heading.svg);
+    content:url(.assets/img/listeners_heading.svg);
 position: absolute;
 top: 17px;
 right: 98px;
