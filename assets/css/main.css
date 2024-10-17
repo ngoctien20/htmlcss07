@@ -21,8 +21,8 @@ button {
     --black: #201830;
     --gray: #665f73;
     --prime-color: #ff9051;
-    --color:#fff;
-    --background_color: #FFF8F3;
+    --color: #fff;
+    --background_color: #fff8f3;
 }
 a {
     text-decoration: none;
@@ -36,20 +36,20 @@ a {
     color: var(--black);
     font-weight: 700;
 }
-.item_heading{
+.item_heading {
     display: flex;
     align-items: center;
     column-gap: 8px;
     color: var(--color);
-font-size: 1.8rem;
-font-weight: 600;
-line-height: 30px; /* 166.667% */
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
 }
-.item_desc{
+.item_desc {
     color: var(--color);
-font-size: 1.4rem;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
 }
 .hed_pc {
     display: none;
@@ -79,11 +79,11 @@ line-height: 24px; /* 171.429% */
 .section_link:hover {
     text-decoration-line: underline;
 }
-.order_1_pc{
+.order_1_pc {
     order: 1;
 }
-.order_2_pc{
-    order:2;
+.order_2_pc {
+    order: 2;
 }
 /* hero */
 .hero {
@@ -226,8 +226,8 @@ line-height: 24px; /* 171.429% */
     line-height: 80px;
     z-index: 2;
 }
-.hero_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/hero_right_01.svg");
+.hero_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/hero_right_01.svg");
     position: absolute;
     left: 30px;
     bottom: 58px;
@@ -267,8 +267,8 @@ line-height: 24px; /* 171.429% */
     font-size: 4.2rem;
     line-height: 52px;
 }
-.directories_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/directories_heading.svg");
+.directories_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/directories_heading.svg");
     position: absolute;
     bottom: -19px;
     right: 58px;
@@ -280,16 +280,16 @@ line-height: 24px; /* 171.429% */
     font-size: 1.6rem;
     line-height: 28px;
 }
-.directories_actions{
-    display: inline-flex;  
+.directories_actions {
+    display: inline-flex;
 }
-.directories_btn { 
+.directories_btn {
     column-gap: 8px;
     margin-top: 38px;
     align-items: center;
     justify-content: center;
 }
-.directories_right{
+.directories_right {
     margin-left: 130px;
 }
 .directories_media {
@@ -333,71 +333,71 @@ line-height: 24px; /* 171.429% */
     left: -62px;
 }
 /* category */
-.category{
+.category {
     margin-top: 160px;
 }
-.category_top{
+.category_top {
     text-align: center;
 }
-.category_heading{
+.category_heading {
     display: inline-block;
     position: relative;
-font-size: 4.2rem;
-line-height: 52px; /* 123.81% */
+    font-size: 4.2rem;
+    line-height: 52px; /* 123.81% */
 }
-.category_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/category_heading.svg");
+.category_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/category_heading.svg");
     z-index: -1;
     max-width: 193px;
-position: absolute;
-bottom: -8px;
-right: 0;
+    position: absolute;
+    bottom: -8px;
+    right: 0;
 }
-.category_desc{
+.category_desc {
     margin-top: 18px;
-font-size: 1.6rem;
-line-height: 28px; /* 175% */
+    font-size: 1.6rem;
+    line-height: 28px; /* 175% */
 }
-.category_podcasts{
-    margin-top: 70px
+.category_podcasts {
+    margin-top: 70px;
 }
-.category_list{
+.category_list {
     display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 30px 30px;
-        grid-auto-flow: row;     
-        grid-template-areas: 
-    "num1 num2 num2 num3"
-    "num1 num4 num5 num5"; 
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "num1 num2 num2 num3"
+        "num1 num4 num5 num5";
 }
-.category_img{
+.category_img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
 }
-.category_item{
+.category_item {
     position: relative;
 }
-.category_item:nth-of-type(1){
+.category_item:nth-of-type(1) {
     width: 370px;
-    grid-area:num1;
+    grid-area: num1;
 }
-.category_item:nth-of-type(2){
-    grid-area:num2;
+.category_item:nth-of-type(2) {
+    grid-area: num2;
 }
-.category_item:nth-of-type(3){
+.category_item:nth-of-type(3) {
     width: 270px;
-    grid-area:num3;
+    grid-area: num3;
 }
-.category_item:nth-of-type(4){
+.category_item:nth-of-type(4) {
     width: 270px;
-    grid-area:num4;
+    grid-area: num4;
 }
-.category_item:nth-of-type(5){
-    grid-area:num5;
+.category_item:nth-of-type(5) {
+    grid-area: num5;
 }
-.category_item_block{
+.category_item_block {
     padding: 16px 0 16px 24px;
     display: inline-block;
     position: absolute;
@@ -405,252 +405,254 @@ line-height: 28px; /* 175% */
     right: 0;
     width: 100%;
     height: 86px;
-    background:#FFFFFF33;
-    fill: rgba(255, 255, 255, 0.20);
+    background: #ffffff33;
+    fill: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
 }
-.category_action{
+.category_action {
     margin-top: 55px;
     display: flex;
     justify-content: center;
 }
-.category_btn{
-    background:var(--black);
+.category_btn {
+    background: var(--black);
 }
 /* popular  */
-.popular{
-    background:var(--background_color);
+.popular {
+    background: var(--background_color);
     margin-top: 160px;
     padding-bottom: 100px;
 }
-.popular_top{
+.popular_top {
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.popular_heading{
+.popular_heading {
     position: relative;
     width: 390px;
     font-size: 4.2rem;
     line-height: 52px;
     z-index: 1;
 }
-.popular_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/popular_heading.svg");
+.popular_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/popular_heading.svg");
     position: absolute;
     top: 14px;
     right: 43px;
     z-index: -1;
 }
-.popular_list{
+.popular_list {
     margin-top: 84px;
-     display: grid;
-        grid-template-columns:repeat(4,1fr);
-        /* grid-template-rows: 1fr 1fr; */
-        gap: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 30px 30px;
 }
-.popular_item{
+.popular_item {
     flex-direction: column;
     width: 270px;
     display: flex;
     row-gap: 30px;
 }
-.popular_item_thumb{
+.popular_item_thumb {
     border-radius: 8px;
     width: 100%;
     height: 286px;
     object-fit: cover;
 }
-.popular_item_bottom{
+.popular_item_bottom {
     height: 286px;
 }
-.popular_item_heading{
+.popular_item_heading {
     margin-top: 9px;
     max-width: 270px;
     font-size: 2rem;
     line-height: 30px;
 }
-.popular_item_episode{
+.popular_item_episode {
     display: block;
     margin-top: 29px;
-    color: #FD6F1F;
-font-size: 1.4rem;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
+    color: #fd6f1f;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
 }
-.popular_item_desc{
+.popular_item_desc {
     margin-top: 18px;
     font-size: 1.6rem;
     line-height: 28px;
 }
-.popular_item_action{
+.popular_item_action {
     margin-top: 11px;
     display: flex;
     align-items: center;
     column-gap: 6px;
 }
-.popular_play{
+.popular_play {
     margin-top: 7px;
     width: 15px;
     height: 14px;
-    color:#201830;
+    color: #201830;
 }
-.popular_play:hover{
-    color:var(--violet);
+.popular_play:hover {
+    color: var(--violet);
 }
-.popular_link{
-font-size: 1.4rem;
-line-height: 24px; /* 171.429% */
+.popular_link {
+    font-size: 1.4rem;
+    line-height: 24px; /* 171.429% */
 }
-.popular_link:hover{
-    color:var(--violet);
+.popular_link:hover {
+    color: var(--violet);
 }
-.popular_dot{
+.popular_dot {
     display: flex;
     justify-content: center;
     margin-top: 55px;
-    cursor:pointer
-
+    cursor: pointer;
 }
 /* listeners  */
 .listeners {
-margin-top: 168px;
+    margin-top: 168px;
 }
-.listeners_inner{
+.listeners_inner {
     display: flex;
     column-gap: 430px;
 }
-.listeners_left{
-    position:relative;
+.listeners_left {
+    position: relative;
 }
-.listeners_dot{
-    position:absolute;
+.listeners_dot {
+    position: absolute;
     bottom: -160px;
     left: 74px;
-    cursor:pointer
+    cursor: pointer;
 }
-.listeners_main{
+.listeners_main {
     position: absolute;
     top: 0;
     right: -300px;
     z-index: -1;
     width: 370px;
     height: 444px;
-object-fit: cover;
-border-radius: 8px;
+    object-fit: cover;
+    border-radius: 8px;
 }
-.listeners_img{
+.listeners_img {
     position: relative;
     top: 80px;
-    left: 0;;
+    left: 0;
     z-index: 1;
     width: 270px;
     height: 284px;
     border-radius: 8px;
 }
-.listeners_apostrophe{
+.listeners_apostrophe {
     margin-top: 48px;
 }
-.listeners_heading{
+.listeners_heading {
     position: relative;
     margin-top: 18px;
     font-size: 4.2rem;
     line-height: 52px;
 }
-.listeners_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/listeners_heading.svg");
-position: absolute;
-top: 17px;
-right: 98px;
-z-index:-1;
+.listeners_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/listeners_heading.svg");
+    position: absolute;
+    top: 17px;
+    right: 98px;
+    z-index: -1;
 }
-.listeners_desc{
+.listeners_desc {
     margin-top: 38px;
     line-height: 28px;
     font-size: 1.6rem;
 }
-.listeners_name{
+.listeners_name {
     display: inline-block;
-    color: #ABA6B5;
-font-size: 1.4rem;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-margin-top: 18px;
+    color: #aba6b5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-top: 18px;
 }
 /* update */
-.update{
-    margin-top: 210px;  
+.update {
+    margin-top: 210px;
 }
-.update_inner{
+.update_inner {
     padding: 100px;
-   display: block;
+    display: block;
     border-radius: 12px;
-background: var(--black);
-height: 438px;
-position: relative;
+    background: var(--black);
+    height: 438px;
+    position: relative;
 }
-.update_star_1,.update_star_2,.update_star_3{
+.update_star_1,
+.update_star_2,
+.update_star_3 {
     position: absolute;
     z-index: 2;
 }
-.update_star_1{
+.update_star_1 {
     top: 26px;
     right: 618px;
 }
-.update_star_2{
+.update_star_2 {
     left: 35px;
     bottom: 45px;
 }
-.update_star_3{
+.update_star_3 {
     right: 27px;
     top: 180px;
 }
-.update_top{ 
+.update_top {
     display: flex;
 }
-.update_heading{
+.update_heading {
     width: 470px;
     font-size: 4.2rem;
     line-height: 52px;
-    color:var(--color);
+    color: var(--color);
     position: relative;
     z-index: 1;
 }
-.update_heading::after{
-    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/update_heading.svg");
+.update_heading::after {
+    content: url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/update_heading.svg");
     position: absolute;
     left: -3px;
     bottom: -12px;
     z-index: -1;
 }
-.update_desc{
+.update_desc {
     width: 470px;
     font-size: 1.6rem;
     line-height: 28px;
-    color: #ABA6B5;
+    color: #aba6b5;
 }
-.update_form{
+.update_form {
     margin-top: 70px;
     display: flex;
     column-gap: 30px;
 }
-.update_input_name,.update_input_email{
+.update_input_name,
+.update_input_email {
     width: 370px;
-height: 64px;
-border-radius: 8px;
-background: #2B213F;
-outline:none;
-border:none;
-padding: 18px 28px;
-color: #ABA6B5;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px; /* 175% */
+    height: 64px;
+    border-radius: 8px;
+    background: #2b213f;
+    outline: none;
+    border: none;
+    padding: 18px 28px;
+    color: #aba6b5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
 }
-.update_btn{
-    outline:none;
-border:none;
-cursor:pointer;
-padding: 0;
+.update_btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
