@@ -109,7 +109,7 @@
         line-height: 46px;
     }
     .hero_heading::after {
-        content: url(/assets/img/hero_heading_mobile.svg);
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/hero_heading_mobile.svg");
         left: 4px;
         bottom: -11px;
     }
@@ -178,7 +178,7 @@
         margin-top: 38px;
     }
     .directories_heading::after {
-        content: url(/assets/img/directorie_heading_mobile.svg);
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/directorie_heading_mobile.svg");
         left: 4px;
         bottom: -11px;
     }
@@ -197,15 +197,19 @@
     .category {
         margin-top: 100px;
     }
-    .category_heading {
+    .category_heading { 
+        text-align: center;
         font-size: 2.6rem;
         line-height: 36px; /* 138.462% */
     }
-    .category_heading::after {
-        content: url(/assets/img/category_heading_mobile.svg);
+  
+    .category_heading::after { 
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/category_heading_mobile.svg");
         bottom: -12px;
     }
     .category_desc {
+        display: inline-block;
+        text-align: center;
         margin-top: 12px;
         width: 339px;
         font-size: 1.4rem;
@@ -240,7 +244,7 @@
         line-height: 36px; /* 138.462% */
     }
     .popular_heading::after {
-        content: url(/assets/img/popular_heading_mobile.svg);
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/popular_heading_mobile.svg");
         left: 6px;
         top: 45px;
         z-index: -1;
@@ -310,7 +314,7 @@
         line-height: 36px; /* 138.462% */
     }
     .listeners_heading::after {
-        content: url(/assets/img/listeners_heading_mobile.svg);
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/listeners_heading_mobile.svg");
         top: 12px;
         right: 121px;
     }
@@ -361,7 +365,7 @@
         line-height: 36px; /* 138.462% */
     }
     .update_heading::after {
-        content: url(/assets/img/update_heading_mobile.svg);
+        content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/update_heading_mobile.svg");
         left: 239px;
         bottom: 27px;
     }

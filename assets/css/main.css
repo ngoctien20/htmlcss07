@@ -37,6 +37,9 @@ a {
     font-weight: 700;
 }
 .item_heading{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
     color: var(--color);
 font-size: 1.8rem;
 font-weight: 600;
@@ -224,7 +227,7 @@ line-height: 24px; /* 171.429% */
     z-index: 2;
 }
 .hero_heading::after{
-    content:url(/assets/img/hero_right_01.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/hero_right_01.svg");
     position: absolute;
     left: 30px;
     bottom: 58px;
@@ -265,7 +268,7 @@ line-height: 24px; /* 171.429% */
     line-height: 52px;
 }
 .directories_heading::after{
-    content:url(/assets/img/directories_heading.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/directories_heading.svg");
     position: absolute;
     bottom: -19px;
     right: 58px;
@@ -343,7 +346,7 @@ font-size: 4.2rem;
 line-height: 52px; /* 123.81% */
 }
 .category_heading::after{
-    content:url(/assets/img/category_heading.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/category_heading.svg");
     z-index: -1;
     max-width: 193px;
 position: absolute;
@@ -434,7 +437,7 @@ line-height: 28px; /* 175% */
     z-index: 1;
 }
 .popular_heading::after{
-    content:url(/assets/img/popular_heading.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/popular_heading.svg");
     position: absolute;
     top: 14px;
     right: 43px;
@@ -491,12 +494,16 @@ line-height: 24px; /* 171.429% */
     margin-top: 7px;
     width: 14px;
     height: 14px;
+    color:#201830;
+}
+.popular_play:hover{
+    color:var(--violet);
 }
 .popular_link{
 font-size: 1.4rem;
 line-height: 24px; /* 171.429% */
 }
-.popular_link_active{
+.popular_link:hover{
     color:var(--violet);
 }
 .popular_dot{
@@ -552,7 +559,7 @@ border-radius: 8px;
     line-height: 52px;
 }
 .listeners_heading::after{
-    content:url(.assets/img/listeners_heading.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/listeners_heading.svg");
 position: absolute;
 top: 17px;
 right: 98px;
@@ -611,7 +618,7 @@ position: relative;
     z-index: 1;
 }
 .update_heading::after{
-    content:url(/assets/img/update_heading.svg);
+    content:url("https://raw.githubusercontent.com/ngoctien20/htmlcss07/main/assets/img/update_heading.svg");
     position: absolute;
     left: -3px;
     bottom: -12px;
