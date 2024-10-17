@@ -1,7 +1,7 @@
 /* footer */
 .footer {
-    height: 415px;
-    padding: 100px 0 38px 50px;
+    height: 450px;
+    padding: 100px 0 56px;
     background: var(--background_color);
 }
 .footer_list {
